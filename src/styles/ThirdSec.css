@@ -1,0 +1,45 @@
+.ThirdSecPara {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  /* padding: 40px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ThirdSecPara h1 {
+  color: aquamarine;
+  font-size: 3.4vw;
+  text-transform: uppercase;
+}
+.ThirdSecPara p {
+  color: white;
+  font-size: 2.6vw;
+  text-transform: uppercase;
+}
+.thirdSecCon {
+  position: relative;
+}
+@media (max-width: 769px) {
+  .ThirdSecImg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .ThirdSecImg img {
+    width: 100vw;
+    height: 60vw;
+  }
+  .ThirdSecPara h1 {
+    font-size: 8vw;
+  }
+  .ThirdSecPara {
+    text-align: center;
+  }
+  .ThirdSecPara p {
+    color: white;
+    font-size: 3.5vw;
+    text-transform: uppercase;
+  }
+}
