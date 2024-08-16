@@ -1,7 +1,5 @@
 .secDivLeftImg {
   width: 100%;
-  /* height: 100%; */
-  /* background-color: navajowhite; */
   display: block;
 }
 .secDivLeftImg img {
@@ -11,12 +9,10 @@
   width: 100%;
   height: 100%;
   display: block;
-  padding: 30px;
-  /* background-color: aquamarine; */
+  padding: 30px 10px;
 }
 .sectionPara p {
   font-size: 1.5vw;
-  /* background-color: aquamarine; */
   letter-spacing: 0.1vw;
 }
 .secDivRightImg img {
@@ -26,42 +22,67 @@
   display: flex;
   justify-content: center;
   gap: 50px;
+  background-color: gainsboro;
 }
 .secDivLeft {
-  /* background-color: aqua; */
   padding: 30px;
 }
 @media (max-width: 769px) {
   .sectionCont {
     display: flex;
+    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    /* gap: 50px; */
+    flex-direction: column-reverse;
+    gap: 0px;
   }
   .secDivRightImg {
-    display: flex;
-    justify-content: center;
+    padding: 20px;
   }
   .secDivLeftImg img {
-    width: 30vw;
+    width: 40vw;
   }
   .sectionPara p {
-    font-size: 3vw;
+    font-size: 3.5vw;
+  }
+  .sectionPara {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .secDivLeft {
-    display: flex;
-    /* justify-content: center; */
-    flex-direction: column;
-    /* background-color: aqua; */
-
     text-align: center;
   }
   .secDivRightImg img {
-    width: 60vw;
+    width: 70vw;
   }
 }
 @media (max-width: 600px) {
+  .sectionCont {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .secDivRightImg img {
+    width: 80vw;
+  }
   .sectionPara p {
     font-size: 4vw;
+  }
+}
+@media (max-width: 500px) {
+  .secDivRightImg {
+    padding: 30px 10px;
+  }
+  .secDivLeftImg img {
+    width: 50vw;
+  }
+  .secDivLeft {
+    padding: 0px;
+  }
+  .sectionPara p {
+    font-size: 4.2vw;
+    padding: 10px 10px 50px 10px;
+    letter-spacing: 0.3vw;
   }
 }

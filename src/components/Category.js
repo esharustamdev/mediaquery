@@ -6,8 +6,8 @@ const Category = () => {
       <div className='categoryCont'>
         <div className='catHeading'>
           <h1>
-            Sustainable Solutions for Modern Living <br /> at Swiss Haven
-            Farmhouses
+            Sustainable Solutions for Modern Living <br /> at{' '}
+            <span>Swiss Haven Farmhouses</span>
           </h1>
         </div>
         <div className='categoryDiv'>

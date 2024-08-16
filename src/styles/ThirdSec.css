@@ -22,6 +22,14 @@
   position: relative;
 }
 @media (max-width: 769px) {
+  .ThirdSecPara {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .ThirdSecImg {
     display: block;
     width: 100%;
@@ -41,5 +49,29 @@
     color: white;
     font-size: 3.5vw;
     text-transform: uppercase;
+  }
+}
+@media (max-width: 500px) {
+  .ThirdSecPara {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ThirdSecImg img {
+    width: 100vw;
+    height: 80vw;
+  }
+  .ThirdSecPara h1 {
+    font-size: 8vw;
+  }
+  .ThirdSecPara p {
+    color: white;
+    padding: 10px;
+    font-size: 4vw;
+    text-transform: uppercase;
+    letter-spacing: 0.2vw;
   }
 }

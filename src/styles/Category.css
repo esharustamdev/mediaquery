@@ -39,7 +39,6 @@
   justify-content: center;
   box-shadow: 1px 1px 2px 2px;
   border-radius: 20px;
-  /* background-color: aquamarine; */
   width: 40%;
 }
 .RightDiv {
@@ -50,6 +49,9 @@
   justify-content: center;
   box-shadow: 1px 1px 2px 2px;
   border-radius: 20px;
+}
+.catHeading span {
+  color: palegreen;
 }
 @media (max-width: 1100px) {
   .RightDiv {
@@ -91,13 +93,15 @@
     align-items: center;
   }
   .RightDiv {
-    width: 60%;
+    width: 60vw;
+    height: 70vw;
   }
   .leftDiv {
-    width: 60%;
+    width: 60vw;
+    height: 70vw;
   }
   .categoryImg img {
-    width: 20vw;
+    width: 30vw;
   }
   .categoryPara h2 {
     font-size: 3vw;
@@ -108,20 +112,40 @@
   }
 }
 @media (max-width: 500px) {
-  .categoryPara h2 {
-    font-size: 7vw;
-    padding: 10px;
-  }
-  .categoryPara p {
-    font-size: 4vw;
+  .catHeading h1 {
+    font-size: 6vw;
+    letter-spacing: 0.1vw;
   }
   .RightDiv {
-    width: 90%;
+    width: 80vw;
+    height: 110vw;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 1px 2px 2px;
+    border-radius: 20px;
   }
   .leftDiv {
-    width: 90%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 1px 2px 2px;
+    border-radius: 20px;
+    width: 80vw;
+    height: 110vw;
+    /* background-color: aqua; */
   }
-  .catHeading h1 {
-    font-size: 4.8vw;
+  .categoryImg img {
+    width: 50vw;
+    height: 60vw;
+  }
+  .categoryPara h2 {
+    font-size: 6vw;
+    padding: 0px;
+  }
+  .categoryPara p {
+    font-size: 3.8vw;
   }
 }

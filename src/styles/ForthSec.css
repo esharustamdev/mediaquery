@@ -16,3 +16,9 @@
     height: 35vw;
   }
 }
+@media (max-width: 500px) {
+  .forthSecCont img {
+    width: 50vw;
+    height: 60vw;
+  }
+}

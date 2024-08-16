@@ -6,8 +6,7 @@ const HeroSection = () => {
       <img src='/imges/main-bg.png' alt='' className='largeBanner' />
       <div className='body'>
         <h1>
-          Luxury Redefined in <br /> swiss haven
-          <span> Farmhouses</span>
+          Luxury Redefined in <span> swiss haven Farmhouses</span>
         </h1>
         <p>
           Experience unparalleled luxury in Farmhouses. Immerse yourself <br />
